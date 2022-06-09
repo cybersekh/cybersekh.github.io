@@ -128,3 +128,7 @@ a:hover {
     font-weight: bolder;
     color: #544f4c;
 }
+
+strong {
+    color: #9c6644;
+}
