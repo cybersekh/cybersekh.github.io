@@ -11,6 +11,10 @@
     border: 10px solid #c5a88c;
 }
 
+.picture:hover {
+    filter: grayscale(100%);
+}
+
 body {
     background-color: #cdceae;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
