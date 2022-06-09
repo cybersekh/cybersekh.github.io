@@ -12,7 +12,7 @@
 }
 
 .picture:hover {
-    filter: grayscale(100%);
+    filter: sepia(100%);
 }
 
 body {
