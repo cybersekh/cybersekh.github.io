@@ -8,14 +8,31 @@
 }
 
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Paytone One', sans-serif;    
     text-transform: uppercase;
     font-weight: bold;
     font-size: 200px;
     margin-left: 8%;
-    margin-top: -34%;
+    margin-top: -35%;
     text-shadow: 3px 1px 1px rgba(255,255,255,0.88);
     color: #E12B2B;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: 'Paytone One', sans-serif;
+    text-transform: uppercase;
+    color: #E12B2B;
+    text-shadow: 2px 2px black;
+    margin-left: 240px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 40px;
+    font-family: 'Ubuntu';
+    margin-left: 230px;
+    margin-top: -20px;
 }
 
 .subshadow {
@@ -23,21 +40,21 @@ h1 {
     font-size: 50px;
     color: #E12B2B;
     margin-top: 180px;
-    padding: 20px 50px;
+    padding: 40px 50px;
 
     margin-left: -38%;
 }
 
 .shadow-header {
     margin-left: 60%;
-    padding: 20px;
+    padding: 80px;
     height: 800px;
     position: static;
 }
 
 .nav {
     display: inline-block;
-    margin-left: 380px;
+    margin-left: 390px;
     margin-top: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -63,6 +80,36 @@ a {
     color: white;
 }
 
-a:hover {
-    background-color: aqua;
+main {
+    display: inline-block;
+    margin-top: 280px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.historia {
+    /* background-color: aqua; */
+}
+
+.imghistoria {
+    width: 500px;
+    margin-left: 720px;
+    margin-top: -550px;
+}
+
+.biografia {
+    width: 500px;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-left: 200px;
+    height: 400px;
+    font-family: 'Ubuntu';
+    border-radius: 10%;
+    text-align: justify;
+}
+
+.biografia p{
+    padding: 20px;
+    font-size: 15px;
 }
