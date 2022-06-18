@@ -39,7 +39,7 @@
         </section>
 
         <section id="perso" class="perso">
-            <h2>INTJ</h2>
+            <h2>THE FAKER</h2>
             <h3>Colérico & Melancólico</h3>
 
             <div class="intj">
@@ -52,7 +52,60 @@
         </section>
 
         <section id="skills" class="skills">
+            <div class="poderes">
 
+                <div class="grupodebotoes">
+                    <button class="botao" onclick="openHab('Basic')">BÁSICO</button>
+                    <button class="botao" onclick="openHab('Chaos')">CHAOS</button>
+                    <button class="botao" onclick="openHab('Super')">SUPER</button>
+                  </div>
+
+                <div id="Basic" class="hab">
+                    <h2>Básico</h2>
+                    <p>Diz-se ser igual a Sonic em quase todas as habilidades, Shadow pode facilmente rivalizar com as várias habilidades físicas de Sonic. Suas habilidades e habilidades em combate são uma força extremamente poderosa a ser reconhecida, e ele é páreo até mesmo para os inimigos mais poderosos da série. Da mesma forma, ele nunca retém de bom grado sua imensa força, tornando-o um lutador brutal. <br>
+                    Como muitos de seus associados, Shadow é capaz de se mover em super velocidade. Diz-se que possui "velocidade máxima", Shadow é capaz de igualar as velocidades alcançadas por Sonic, que é capaz de atingir velocidades hipersônicas.<br>
+                    Um atleta experiente que compartilha a agilidade de Sonic, Shadow tem excelentes habilidades acrobáticas e agilidade, juntamente com reflexos incríveis que lhe permitem evitar obstáculos com movimentos precisos e delicados em frações de segundos.<br><br>
+                    Possuindo sua fisiologia de "forma de vida suprema", Shadow possui um corpo imortal, o que significa que ele não envelhece e não pode ser morto. <br>
+                    </p>
+                    <img class="imgskills" src="shadowbasic.png" alt="Shadow Basico">
+                  </div>
+                  
+                  <div id="Chaos" class="hab" style="display:none">
+                    <h2>CHAOS CONTROL</h2>
+                    <p>Shadow é naturalmente capaz de explorar os poderes arcanos das Esmeraldas do Caos próximas, seja por meio de contato físico ou à distância, para se fortalecer e acessar diferentes poderes do caos. De acordo com o próprio Shadow, ele é o único que sabe usar o verdadeiro poder das Esmeraldas do Caos.<br><br>
+                    Com esta técnica que lhe dá controle sobre o tempo e o espaço, Shadow é capaz de deformar a si mesmo e aqueles próximos instantaneamente em um intervalo, além de fazer uma explosão de aniquilação de ilha ou entre dimensões, desacelerar ou congelar o tempo inteiramente, e criar áreas de espaço distorcido. Normalmente, no entanto, Shadow não pode realizar o Controle do Caos se ele não tiver nenhuma Esmeralda do Caos para extrair energia. <br><br>
+                    Além do Controle do Caos, Shadow é capaz de usar vários poderes de caos adicionais. Um desses poderes inclui sua técnica Chaos Spear, na qual ele lança vários raios de energia Chaos em seu oponente. A técnica mais poderosa de Shadow, no entanto, é o Chaos Blast, um poder de caos onde ele libera uma descarga de energia Chaos Emerald em uma explosão maciça que elimina tudo dentro de um alcance de 10-20 jardas.</p>
+                    <img class="imgskills2" src="chaosshadow.png" alt="Chaos Shadow">
+
+                  </div>
+                  
+                  <div id="Super" class="hab" style="display:none">
+                    <h2>SUPER SHADOW</h2>
+                    <p>Ao aproveitar o poder das sete Esmeraldas do Caos, Shadow pode entrar em um Super Estado, transformando-o em Super Shadow. Nesse estado, todas as habilidades de Shadow superam em muito as normais e seus poderes de caos são aumentados ao máximo. Ele também é capaz de voar e é quase invulnerável. Inicialmente, Shadow achou difícil permanecer neste estado devido à inexperiência, mas desde então ele o dominou. Além disso, essa transformação consome muita energia, o que significa que não pode ser mantida por muito tempo.<br><br>
+                    Como Super Shadow, as habilidades inatas de Shadow superam em muito as normais. Notavelmente, sua velocidade foi aprimorada imensamente, permitindo que ele igualasse a velocidade do Super Sonic, que pode se mover na velocidade da luz.<br><br>
+                    Todos os poderes de caos de Shadow são aprimorados ao máximo em seu Super State, permitindo que ele coloque muito mais poder e alcance em seus ataques. Como o Super Sonic, o Super Shadow também pode usar o Super Sonic Boost , um ataque onde Shadow se esconde em uma aura de fogo e se lança contra os inimigos com velocidade aumentada e força enorme.  
+                    </p>
+                    <img class="imgskills3" src="supershadow.png" alt="Shadow Basico">
+
+                  </div>
+
+                <script>
+                    function openHab(habName) {
+                      var i;
+                      var x = document.getElementsByClassName("hab");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      document.getElementById(habName).style.display = "block";  
+                    }
+                </script>
+
+                    <footer class="footer">
+                     <p>Página feita com carinho por Carolina Lima.<br>
+                        Shadow the Hedgehog é um personagem da SEGA.
+                     </p>
+                    </footer>
+            </div>
         </section>
     </main>
 </body>

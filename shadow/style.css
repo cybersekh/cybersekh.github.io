@@ -79,10 +79,6 @@ main {
     display: inline-block;
     margin-top: 280px;
     width: 100%;
-    background-color: ;
-}
-
-.historia {
 }
 
 .imghistoria {
@@ -120,7 +116,7 @@ strong {
 }
 
 .perso h2 {
-    margin-left: 950px;
+    margin-left: 800px;
 }
 
 .perso h3 {
@@ -149,3 +145,91 @@ strong {
     padding: 20px;
     font-size: 15px;
 }
+
+.grupodebotoes {
+    margin-left: 620px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.botao {
+    padding: 20px 100px;
+    font-family: 'Ubuntu';
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#E12B2B;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Ubuntu';
+	font-size:18px;
+	padding:20px 68px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+
+.botao:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+
+.botao:active {
+	position:relative;
+	top:1px;
+}
+
+.hab {
+    width: 500px;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-left: 500px;
+    height: 500px;
+    font-family: 'Ubuntu';
+    text-align: justify;
+    border-radius: 10%;
+    /* margin-top: 150px; */
+}
+
+.hab h2 {
+    font-size: 40px;
+    margin-left: 50px;
+    text-shadow: 1px 1px white;
+
+}
+
+.hab p {
+    padding: 20px;
+}
+
+.imgskills {
+    width: 450px;
+    margin-left: 450px;
+    margin-top: -520px;
+}
+
+.imgskills2 {
+    width: 600px;
+    margin-left: 400px;
+    margin-top: -700px;
+}
+
+.imgskills3 {
+    width: 520px;
+    margin-left: 400px;
+    margin-top: -700px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #E12B2B;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu';
+}
+
