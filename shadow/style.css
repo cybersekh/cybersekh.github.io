@@ -24,14 +24,14 @@ h2 {
     text-transform: uppercase;
     color: #E12B2B;
     text-shadow: 2px 2px black;
-    margin-left: 240px;
+    margin-left: 440px;
 }
 
 h3 {
     font-size: 30px;
     margin-left: 40px;
     font-family: 'Ubuntu';
-    margin-left: 230px;
+    margin-left: 430px;
     margin-top: -20px;
 }
 
@@ -41,7 +41,6 @@ h3 {
     color: #E12B2B;
     margin-top: 180px;
     padding: 40px 50px;
-
     margin-left: -38%;
 }
 
@@ -66,10 +65,6 @@ li {
     background-color: #E12B2B;
 }
 
-li:hover {
-    background-color: white;
-}
-
 a li:hover {
     color: black;
     background-color: white;
@@ -83,18 +78,17 @@ a {
 main {
     display: inline-block;
     margin-top: 280px;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
+    background-color: ;
 }
 
 .historia {
-    /* background-color: aqua; */
 }
 
 .imghistoria {
     width: 500px;
-    margin-left: 720px;
-    margin-top: -550px;
+    margin-left: 910px;
+    margin-top: -750px;
 }
 
 .biografia {
@@ -102,7 +96,7 @@ main {
     color: white;
     background-color: black;
     padding: 30px;
-    margin-left: 200px;
+    margin-left: 400px;
     height: 400px;
     font-family: 'Ubuntu';
     border-radius: 10%;
@@ -110,6 +104,48 @@ main {
 }
 
 .biografia p{
+    padding: 20px;
+    font-size: 15px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.perso {
+    background-image: url(bgperso.jpg);
+    background-color: #272725;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.perso h2 {
+    margin-left: 950px;
+}
+
+.perso h3 {
+    margin-left: 900px;
+}
+
+.intj {
+    width: 500px;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-left: 800px;
+    height: 400px;
+    font-family: 'Ubuntu';
+    border-radius: 10%;
+    text-align: justify;
+}
+
+.imgperso {
+    width: 450px;
+    margin-top: -600px;
+    margin-left: 380px;
+}
+
+.intj p{
     padding: 20px;
     font-size: 15px;
 }
